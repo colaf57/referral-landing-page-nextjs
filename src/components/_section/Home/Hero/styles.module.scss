@@ -1,0 +1,31 @@
+.wrapper {
+  @apply mt-40;
+
+  .imageWrapper {
+    @apply w-full flex items-center justify-center mt-18;
+  }
+  
+  .title {
+    @apply text-center text-dark-1 text-34 px-12 tablet:text-48 font-medium mt-20 leading-58;
+  }
+  
+  .description {
+    @apply text-center text-dark-2 text-18 font-medium mt-5;
+  }
+  
+  .inputWrapper {
+    @apply relative flex flex-col justify-center items-center my-20;
+
+    .subWrapper {
+      @apply relative;
+
+      .input {
+        @apply w-320 phone:w-500 #{!important}
+      }
+    
+      .toast {
+        @apply absolute -top-50 right-0 bg-white shadow-lg pointer-events-auto rounded-lg border border-primary-1 w-70 h-35 text-15;
+      }
+    }
+  }
+}

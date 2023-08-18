@@ -1,0 +1,19 @@
+.wrapper {
+  @apply my-40;
+
+  .text {
+    @apply text-20 text-center font-medium mb-10;
+  }
+  
+  .buttonWrapper {
+    @apply flex flex-wrap tablet:flex-auto justify-center items-center gap-10;
+  
+    .button {
+      @apply text-primary-1 text-16 font-semibold border-none bg-gray-4 rounded-2xl py-15 w-full tablet:w-260;
+
+      &:hover {
+        @apply bg-gray-6;
+      }
+    }
+  }
+}

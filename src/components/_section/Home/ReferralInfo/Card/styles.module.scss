@@ -1,0 +1,11 @@
+.wrapper {
+  @apply flex flex-col justify-center items-center text-center bg-gray-1 w-full miniLandscape:w-175 phoneLandscape:w-220 phone:w-250 tablet:w-340 desktop:w-230 py-25 border border-r-gray-7;
+
+  .value {
+    @apply text-36 font-medium leading-36 mt-15;
+  }
+
+  .text {
+    @apply text-16 text-dark-4 font-medium mt-5;
+  }
+}

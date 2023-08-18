@@ -1,0 +1,35 @@
+.text {
+  @apply text-20 font-medium text-center;
+}
+
+.buttonWrapper {
+  @apply flex justify-center items-center gap-5 mt-12;
+
+  .button {
+    @apply bg-gray-4 flex justify-center items-center w-53 h-53 p-0 #{!important};
+  }
+}
+
+.termsText {
+  @apply text-12 font-medium text-gray-5 text-center mt-8;
+
+  .terms {
+    @apply underline cursor-pointer;
+  }
+}
+
+.modalWrapper {
+  @apply bg-white rounded-3xl px-30 py-20 w-auto tablet:w-500;
+
+  .title {
+      @apply text-24 font-medium;
+  }
+
+  .description {
+      @apply text-14 tablet:text-16 text-dark-2 mt-10;
+  }
+
+  .closeIcon {
+    @apply absolute top-0 right-0 #{!important};
+  }
+}

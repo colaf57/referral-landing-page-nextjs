@@ -1,0 +1,19 @@
+.wrapper {
+  @apply mt-40;
+
+  .imageWrapper {
+    @apply w-full flex items-center justify-center mt-18;
+  }
+  
+  .title {
+    @apply text-center text-dark-1 text-34 px-12 tablet:text-48 font-medium mt-20 leading-58;
+  }
+  
+  .description {
+    @apply text-center text-dark-2 text-18 font-medium mt-5;
+  }
+  
+  .buttonWrapper {
+    @apply flex justify-center items-center my-20 gap-5;
+  }
+}

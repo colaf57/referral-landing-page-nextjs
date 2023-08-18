@@ -1,0 +1,7 @@
+.text {
+  @apply text-center text-36 font-medium pt-20;
+}
+
+.wrapper {
+  @apply flex flex-wrap phone:flex-auto justify-center items-center gap-x-20 gap-y-35 w-full px-0 pb-50 mt-30 large:px-100 laptop:px-130 extraLarge:px-200;
+}

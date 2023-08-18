@@ -1,0 +1,23 @@
+.wrapper {
+  @apply mb-40 mt-45;
+
+  .subWrapper {
+    @apply flex flex-col justify-center items-center;
+
+    .cardWrapper {
+      @apply rounded-3xl overflow-hidden flex flex-wrap tablet:flex-auto justify-center items-center;
+    }
+
+    .buttonWrapper {
+      @apply relative;
+
+      .emptyWrapper {
+        @apply border-l-2 border-r-2 border-b-2 border-[#e3e7f5] rounded-b-3xl relative w-360 h-60 hidden phone:block;
+      }
+  
+      .button {
+        @apply bg-primary-1 text-white relative mt-15 phone:absolute phone:top-10 phone:left-32 rounded-2xl py-15;
+      }
+    }
+  }
+}

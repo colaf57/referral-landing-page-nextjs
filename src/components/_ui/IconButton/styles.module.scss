@@ -1,0 +1,63 @@
+.button {
+  @apply flex justify-center items-center relative px-20 py-12 text-black border border-gray-5 rounded-md gap-10 bg-white select-none transition-colors duration-300;
+
+  &.rounded {
+      @apply rounded-full;
+  }
+
+  &.default {
+      .text {
+          @apply text-16 font-medium;
+      }
+
+      .mobileIcon {
+          @apply w-24 h-24 flex-none;
+      }
+  }
+
+  &.small {
+      .text {
+          @apply text-14 font-normal;
+      }
+
+      .mobileIcon {
+          @apply w-15 h-15 flex-none;
+      }
+  }
+
+  &.smallest {
+      @apply py-7 desktop:px-16 px-7;
+
+      .text {
+          @apply text-14 font-medium;
+      }
+
+      .mobileIcon {
+          @apply w-15 h-15 flex-none;
+
+          &.active {
+              @apply text-red-500;
+
+              svg {
+                  @apply fill-current;
+              }
+          }
+      }
+  }
+
+  &.primary {
+      @apply bg-primary-1 text-black  border-primary-1;
+
+      &:hover {
+          @apply bg-[#eedd40] border-[#eedd40];
+      }
+  }
+
+  .text {
+      @apply whitespace-nowrap;
+  }
+
+  .icon {
+      @apply w-15 h-15 flex-none;
+  }
+}

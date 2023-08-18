@@ -1,0 +1,39 @@
+.label {
+  @apply block text-14 font-normal text-neutral-800 mb-1 px-5;
+}
+
+.inputWrapper {
+  @apply flex relative;
+
+  .inputStyle {
+      @apply block w-full appearance-none rounded-xl py-17 shadow-sm text-16 px-20;
+
+      &.default {
+          @apply focus:outline-none;
+      }
+
+      &.prefix {
+          @apply pl-35;
+      }
+
+      &.suffix {
+          @apply pr-35;
+      }
+
+      &.disabled {
+          @apply bg-gray-1 text-dark-3 font-medium;
+      }
+  }
+
+  .suffixIcon {
+      @apply absolute w-20 h-20 right-18 top-19 text-neutral-900;
+
+      &.chevron {
+          @apply w-17 h-17 text-neutral-900 top-17;
+      }
+
+      &.disabled {
+          @apply text-gray-1;
+      }
+  }
+}

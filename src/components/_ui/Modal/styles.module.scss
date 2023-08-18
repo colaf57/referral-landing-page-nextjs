@@ -1,0 +1,39 @@
+.modalWrapper {
+  @apply fixed inset-0 z-50 flex items-center justify-center overflow-hidden;
+
+  .modal {
+    @apply tablet:w-auto tablet:rounded-2xl w-screen max-h-full relative flex flex-col z-50 #{!important};
+
+    &.noOverflow {
+      @apply overflow-hidden #{!important};
+    }
+
+    &.sidebar {
+      @apply max-tablet:h-screen max-tablet:rounded-none bg-gray-2;
+    }
+
+    .modalContent {
+      @apply h-full;
+
+      .closeIcon {
+        @apply absolute tablet:right-45 #{!important};
+      }
+    }
+
+    .closeIcon {
+      @apply w-24 h-24 absolute top-24 right-46;
+
+      @screen tablet {
+        @apply top-24 right-30;
+      }
+    }
+
+    .backButton {
+      @apply p-20 flex items-center text-20 tablet:hidden border-b w-full bg-white shadow-sm space-x-10;
+    }
+  }
+}
+
+.layer {
+  @apply fixed inset-0 bg-black bg-opacity-25 overflow-hidden;
+}

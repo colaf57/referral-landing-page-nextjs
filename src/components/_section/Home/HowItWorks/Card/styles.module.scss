@@ -1,0 +1,27 @@
+.wrapper {
+  @apply relative min-w-300 tablet:w-300 desktop:w-300 large:w-400;
+
+  .stepWrapper {
+    @apply absolute -top-22 left-1/2 transform -translate-x-1/2 rounded-full border bg-gradient-to-r from-primary-1 to-[#58AFFF];
+  
+    .step {
+      @apply flex h-full w-full items-center justify-center rounded-full bg-white px-15 py-10;
+
+      .text {
+        @apply bg-gradient-to-r from-primary-1 to-[#58AFFF] inline-block text-transparent bg-clip-text;
+      }
+    }
+  }
+
+  .textWrapper {
+    @apply border border-gray-2 rounded-3xl px-24 py-40;
+
+    .title {
+      @apply text-24 font-semibold text-center;
+    }
+
+    .description {
+      @apply text-dark-2 text-16 text-center;
+    }
+  }
+}

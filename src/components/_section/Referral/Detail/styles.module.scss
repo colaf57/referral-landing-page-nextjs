@@ -1,0 +1,19 @@
+.wrapper {
+  @apply flex flex-col justify-center items-center my-60;
+
+  .title {
+    @apply text-16 font-medium text-dark-2;
+  }
+
+  .description {
+    @apply text-28 font-medium text-center;
+  }
+
+  .cardWrapper {
+    @apply grid grid-cols-1 phone:grid-cols-2 tablet:grid-cols-2 desktop:grid-cols-4 gap-x-15 gap-y-30 mt-35 mb-20;
+  }
+
+  .button {
+    @apply py-13 w-full phoneLandscape:w-300;
+  }
+}

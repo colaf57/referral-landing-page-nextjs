@@ -1,0 +1,23 @@
+.buttonStyle {
+  @apply flex justify-center rounded-2xl whitespace-nowrap transition-colors duration-300;
+
+  &.primary {
+      @apply bg-primary-1 text-white text-16 font-medium p-15;
+
+      &:hover {
+        @apply text-primary-1 bg-white border border-primary-1;
+      }
+  }
+
+  &.white {
+    @apply bg-white text-primary-1 border border-primary-1 text-16 font-medium p-15;
+
+    &:hover {
+      @apply bg-primary-1 text-white;
+    }
+}
+  
+  svg {
+      @apply fill-current;
+  }
+}
