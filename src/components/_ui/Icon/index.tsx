@@ -1,26 +1,26 @@
 import React from "react";
 import dynamic from "next/dynamic";
 
-const Mail = dynamic<{ className?: string }>(() => import("./icons/mail.svg"));
-const Whatsapp = dynamic<{ className?: string }>(() => import("./icons/whatsapp.svg"));
-const Telegram = dynamic<{ className?: string }>(() => import("./icons/telegram.svg"));
-const Social1 = dynamic<{ className?: string }>(() => import("./icons/social1.svg"));
-const Facebook = dynamic<{ className?: string }>(() => import("./icons/facebook.svg"));
-const Social2 = dynamic<{ className?: string }>(() => import("./icons/social2.svg"));
-const Copy = dynamic<{ className?: string }>(() => import("./icons/copy.svg"));
-const Close = dynamic<{ className?: string }>(() => import("./icons/close.svg"));
-const UserHandUp = dynamic<{ className?: string }>(() => import("./icons/userHandUp.svg"));
-const HandMoney = dynamic<{ className?: string }>(() => import("./icons/handMoney.svg"));
-const UserCheckRounded = dynamic<{ className?: string }>(() => import("./icons/userCheckRounded.svg"));
-const HourGlass = dynamic<{ className?: string }>(() => import("./icons/hourGlass.svg"));
-const Gift = dynamic<{ className?: string }>(() => import("./icons/gift.svg"));
-const Global = dynamic<{ className?: string }>(() => import("./icons/global.svg"));
-const Phone = dynamic<{ className?: string }>(() => import("./icons/phone.svg"));
-const Info = dynamic<{ className?: string }>(() => import("./icons/info.svg"));
-const Pen = dynamic<{ className?: string }>(() => import("./icons/pen.svg"));
-const Bill = dynamic<{ className?: string }>(() => import("./icons/bill.svg"));
-const User = dynamic<{ className?: string }>(() => import("./icons/user.svg"));
-const ColorGift = dynamic<{ className?: string }>(() => import("./icons/color-gift.svg"));
+const Mail = dynamic<{ className?: string }>(() => import("./Icons/mail.svg"));
+const Whatsapp = dynamic<{ className?: string }>(() => import("./Icons/whatsapp.svg"));
+const Telegram = dynamic<{ className?: string }>(() => import("./Icons/telegram.svg"));
+const Social1 = dynamic<{ className?: string }>(() => import("./Icons/social1.svg"));
+const Facebook = dynamic<{ className?: string }>(() => import("./Icons/facebook.svg"));
+const Social2 = dynamic<{ className?: string }>(() => import("./Icons/social2.svg"));
+const Copy = dynamic<{ className?: string }>(() => import("./Icons/copy.svg"));
+const Close = dynamic<{ className?: string }>(() => import("./Icons/close.svg"));
+const UserHandUp = dynamic<{ className?: string }>(() => import("./Icons/userHandUp.svg"));
+const HandMoney = dynamic<{ className?: string }>(() => import("./Icons/handMoney.svg"));
+const UserCheckRounded = dynamic<{ className?: string }>(() => import("./Icons/userCheckRounded.svg"));
+const HourGlass = dynamic<{ className?: string }>(() => import("./Icons/hourGlass.svg"));
+const Gift = dynamic<{ className?: string }>(() => import("./Icons/gift.svg"));
+const Global = dynamic<{ className?: string }>(() => import("./Icons/global.svg"));
+const Phone = dynamic<{ className?: string }>(() => import("./Icons/phone.svg"));
+const Info = dynamic<{ className?: string }>(() => import("./Icons/info.svg"));
+const Pen = dynamic<{ className?: string }>(() => import("./Icons/pen.svg"));
+const Bill = dynamic<{ className?: string }>(() => import("./Icons/bill.svg"));
+const User = dynamic<{ className?: string }>(() => import("./Icons/user.svg"));
+const ColorGift = dynamic<{ className?: string }>(() => import("./Icons/color-gift.svg"));
 
 export type IconType =
   | "Mail"
